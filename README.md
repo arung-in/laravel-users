@@ -1,6 +1,28 @@
 # laravel-users
 Laravel 6.2 - users table CRUD operation with adminlte-3 theme. Users with profile image upload
 
+# Installation Instructions
+- **Clone the project to disk**
+```git clone https://github.com/arung-in/laravel-users.git```
+
+- **From your projects root folder in terminal run:**
+```copy .env.example .env```
+
+```composer install```
+
+```npm install```
+
+```npm run dev```
+
+```php artisan key:generate```
+
+- **Config DB- User/Password and Email Config**
+
+```php artisan migrate```
+
+```php artisan serve```
+
+------- **Modify the blade as per your wish -- thank you** ------
 
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
